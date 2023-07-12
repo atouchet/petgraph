@@ -1,17 +1,10 @@
 [package]
-
 name = "petgraph-serialization-tests"
 version = "0.0.0"
-publish = false
-license = "MIT/Apache-2.0"
-authors = [
-"bluss",
-]
-
-description = ""
-documentation = ""
+authors = ["bluss"]
 repository = "https://github.com/petgraph/petgraph"
-
+license = "MIT OR Apache-2.0"
+publish = false
 
 [dependencies]
 petgraph = { path = "..", features = ["serde-1", "quickcheck"] }
